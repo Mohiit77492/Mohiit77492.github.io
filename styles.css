@@ -1,12 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    background-color: #1E90FF; /* Ocean blue background */
+    background-image: url('images/leaves.png'); /* Add a leafy background image */
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for text readability */
+    color: black;
     padding: 2rem;
     text-align: center;
 }
@@ -23,34 +28,22 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .section {
     padding: 4rem 2rem;
     text-align: center;
-}
-
-#about {
-    background-color: #f4f4f4;
-}
-
-#skills {
-    background-color: #e2e2e2;
-}
-
-#experience {
-    background-color: #d0d0d0;
-}
-
-#contact {
-    background-color: #b8b8b8;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for sections */
+    margin: 1rem;
+    border-radius: 10px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    color: black;
     padding: 1rem;
     text-align: center;
 }
