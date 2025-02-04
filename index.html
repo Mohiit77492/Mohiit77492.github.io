@@ -21,35 +21,41 @@
     </header>
     <main>
         <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>Hello everyone ! I am Mohit Thakur graduated in engineering and currently working as associate engineer  . My current skills are routing , switching , network monitoring , wireless network monitoring and troubleshooting , providing user solutions for their network problems. currently managing Delhi university natwork where more than 1000 users utilizing the services on the internet on both wired and wirelss.</p>
+            <h2 onclick="toggleVisibility('about-content')">About Me</h2>
+            <div id="about-content" class="sub-content">
+                 <p>Hello everyone ! I am Mohit Thakur graduated in engineering and currently working as associate engineer  . My current skills are routing , switching , network monitoring , wireless network monitoring and troubleshooting , providing user solutions for their network problems. currently managing Delhi university natwork where more than 1000 users utilizing the services on the internet on both wired and wirelss.</p>
+            </div>
         </section>
         <section id="skills" class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Data Center Operations</li>
+            <h2 onclick="toggleVisibility('skills-content')">Skills</h2>
+            <div id="skills-content" class="sub-content">
+                <ul>
+                      <li>Data Center Operations</li>
                 <li>Network Security</li>
                 <li>Lan / Wan Operations</li>
                 <li>SOP Management</li>
                 <!-- Add more skills as needed -->
-            </ul>
+                </ul>
+            </div>
         </section>
         <section id="experience" class="section">
-            <h2>Work Experience</h2>
-            <div class="experience-item">
-                <h3>Associate Engineer</h3>
-                <p>Velocis Systems</p>
-                <p> 3 Years 8 Months </p>
-                <p>Managing network infrastructure, resolve user issues. Hands on experience on multivendor network devices, actively looking for opportunities in the industries to use my experience and learn new technologies..</p>
+            <h2 onclick="toggleVisibility('experience-content')">Work Experience</h2>
+            <div id="experience-content" class="sub-content">
+                <div class="experience-item">
+                    <h3>Associate Engineer</h3>
+                    <p>Velocis Systems</p>
+                    <p> 4 Years </p>
+                    <p>Managing network infrastructure, resolve user issues. Hands on experience on multivendor network devices, actively looking for opportunities in the industries to use my experience and learn new technologies.</p>
+                </div>
             </div>
-            <!-- Add more experience items as needed -->
         </section>
         <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:thakurmohit85@yahoo.in">thakurmohit85@yahoo.in</a></p>
+            <h2 onclick="toggleVisibility('contact-content')">Contact</h2>
+            <div id="contact-content" class="sub-content">
+                <p>Email: <a href="mailto:thakurmohit85@yahoo.in">thakurmohit85@yahoo.in</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/mohit-thakur-065a82184/" target="_blank">https://www.linkedin.com/in/mohit-thakur-065a82184/</a></p>
             <p>GitHub: <a href="https://github.com/Mohiit77492" target="_blank">github.com/Mohiit77492</a></p>
-            <!-- Add more social profiles as needed -->
+            </div>
         </section>
     </main>
     <footer>
